@@ -1,0 +1,6 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+소리 센서 악기 맞추기	마이크로 들어온 소리로 악기 추측	/sound

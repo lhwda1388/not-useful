@@ -1,0 +1,19 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+🧩 NotUseful – 1단계 작업 정의
+✅ 목표
+프로젝트를 초기화하고, 메인 홈 페이지(/)를 구성해 첫 실험들의 진입점을 만든다.
+
+📦 1. 프로젝트 초기 설정
+항목	내용
+✅ Next.js 프로젝트 생성	TypeScript + App Router 기반
+✅ Tailwind CSS 설정	postcss, tailwind.config.js 포함
+✅ 기본 폴더 구조 정리	/app, /app/layout.tsx, /app/page.tsx 등
+✅ favicon 및 기본 메타 설정	public/favicon.ico, head 설정
+✅ README 초안 작성
+✅ Vercel 초기 설정도 고려
+✅ .env를 통해 환경별 구성도 고려
+✅ .nvmrc 생성해서 버전관리 v22.11.0

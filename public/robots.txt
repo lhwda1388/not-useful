@@ -1,0 +1,25 @@
+# NotUseful - 쓸모는 없지만 재미있는 웹 실험 모음집
+# https://not-useful.vercel.app
+
+User-agent: *
+Allow: /
+
+# 메인 페이지
+Allow: /
+Allow: /about
+
+# 실험 페이지들
+Allow: /experiments/
+
+# 정적 리소스
+Allow: /favicon.ico
+Allow: /_next/static/
+Allow: /images/
+Allow: /icons/
+
+# 관리자 페이지나 민감한 페이지는 차단 (향후 필요시)
+# Disallow: /admin/
+# Disallow: /api/
+
+# 크롤링 지연 시간 (초)
+Crawl-delay: 1 

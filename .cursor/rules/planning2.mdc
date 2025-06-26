@@ -1,0 +1,6 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+MBTI Cam	얼굴 표정 인식으로 MBTI 추측 (TensorFlow.js 사용)	/mbti
