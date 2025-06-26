@@ -34,7 +34,6 @@ export const metadata: Metadata = {
   openGraph: {
     title: "NotUseful - 쓸모는 없지만 재미있는 웹 실험 모음집",
     description: "쓸모는 없지만 재미있는 웹 실험들을 체험해보세요.",
-    // url: "https://not-useful.vercel.app",
     siteName: "NotUseful",
     locale: "ko_KR",
     type: "website",
@@ -49,9 +48,9 @@ export const metadata: Metadata = {
     initialScale: 1,
     maximumScale: 1,
   },
-  verification: {
-    google: "your-google-verification-code",
-  },
+  // verification: {
+  //   google: "your-google-verification-code",
+  // },
 };
 
 export default function RootLayout({
