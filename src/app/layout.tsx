@@ -13,13 +13,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "NotUseful - 쓸모는 없지만 재미있는 웹 실험 모음집",
+  title: "OopsBox - 쓸모는 없지만 재미있는 웹 실험 모음집",
   description:
     "쓸모는 없지만 재미있는 웹 실험들을 체험해보세요. 다양한 장난감 같은 기능들을 만나보세요.",
   keywords: ["웹 실험", "재미", "장난감", "웹 개발", "실험"],
-  authors: [{ name: "NotUseful Team" }],
-  creator: "NotUseful Team",
-  publisher: "NotUseful",
+  authors: [{ name: "OopsBox Team" }],
+  creator: "OopsBox Team",
+  publisher: "OopsBox",
   robots: {
     index: true,
     follow: true,
@@ -32,15 +32,15 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "NotUseful - 쓸모는 없지만 재미있는 웹 실험 모음집",
+    title: "OopsBox - 쓸모는 없지만 재미있는 웹 실험 모음집",
     description: "쓸모는 없지만 재미있는 웹 실험들을 체험해보세요.",
-    siteName: "NotUseful",
+    siteName: "OopsBox",
     locale: "ko_KR",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "NotUseful - 쓸모는 없지만 재미있는 웹 실험 모음집",
+    title: "OopsBox - 쓸모는 없지만 재미있는 웹 실험 모음집",
     description: "쓸모는 없지만 재미있는 웹 실험들을 체험해보세요.",
   },
   viewport: {

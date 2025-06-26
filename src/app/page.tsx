@@ -9,7 +9,7 @@ export default function HomePage() {
       <main className="container mx-auto px-4 py-8">
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-4">
-            NotUseful
+            OopsBox
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             쓸모는 없지만 재미있는 웹 실험 모음집
