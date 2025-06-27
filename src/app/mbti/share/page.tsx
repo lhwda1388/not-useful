@@ -4,7 +4,8 @@ import { MBTICam } from "@/features/mbti-cam/ui/MBTICam";
 export default async function SharePage({
   searchParams,
 }: {
-  searchParams: { mbtiType: string };
+  searchParams: Promise<{ mbtiType: string }>;
 }) {
-  return <MBTICam mbtiType={await searchParams.mbtiType} />;
+  const params = await searchParams;
+  return <MBTICam mbtiType={params.mbtiType} />;
 }
