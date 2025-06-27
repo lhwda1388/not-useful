@@ -2,6 +2,16 @@ import { Experiment } from "./types";
 
 export const experiments: Experiment[] = [
   {
+    id: "mbti-cam",
+    title: "MBTI Cam",
+    description: "당신의 표정으로 MBTI를 맞춰보세요!",
+    category: "AI",
+    difficulty: "medium",
+    isAvailable: true,
+    path: "/mbti",
+    tags: ["MBTI", "얼굴인식", "AI", "웹캠"],
+  },
+  {
     id: "color-picker",
     title: "색상 선택기",
     description: "마우스를 움직여서 색상을 선택해보세요",
